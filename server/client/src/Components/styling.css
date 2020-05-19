@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Lakki+Reddy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: repeating-linear-gradient(
+        rgba(255, 255, 255, 1),
+        rgb(3, 19, 109, 0.6),
+        rgba(255, 255, 255, 1)
+    );
+    font-family: 'Lakki Reddy', cursive;
+    padding: 10x;
+}
+
+h1 {
+    color: rgba(13, 204, 29, 0.918);
+    font-size: 4rem;
+    margin-top: 100px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    margin: 30px;
+}
+
+a {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    padding: 20px;
+    color: rgb(148, 37, 148);
+}
+
+.about {
+    padding-top: 50px;
+}
+
+table {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#row2 {
+    background-color: rgba(235, 223, 53, 0.904);
+}
+
+#row3 {
+    background-color: rgba(235, 53, 220, 0.904);
+}
+
+form {
+    border: 2px solid white;
+    border-radius: 20%;
+    background-image: linear-gradient(
+        -90deg,
+        rgba(255, 190, 244, 0.7),
+        rgb(11, 194, 226)
+    );
+    padding: 50px 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    z-index: -10;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+}
