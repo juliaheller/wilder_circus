@@ -1,4 +1,4 @@
-const apiURL = 'http://localhost:5001/users/';
+const apiURL = './users/';
 
 export default {
     /**
