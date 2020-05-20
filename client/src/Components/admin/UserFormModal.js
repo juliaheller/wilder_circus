@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import { Form, Col } from 'react-bootstrap';
@@ -10,14 +10,6 @@ export default function UserFormModal({
     onChangeHandler,
     updateUser,
 }) {
-    //    useEffect(() => {
-    //        // console.warn(selectedUser);
-    //        console.info(user);
-    //        setUser(selectedUser);
-    //        setName(selectedName);
-    //        console.info(user);
-    //    }, []);
-
     return (
         <Modal
             show={show}

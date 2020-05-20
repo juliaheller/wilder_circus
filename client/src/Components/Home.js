@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Card } from 'react-bootstrap';
+import { Container, Row, Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 // styling
@@ -8,6 +8,7 @@ import './styling.css';
 export default function Home() {
     return (
         <Container>
+            <h1>Welcome to Wild Circus!</h1>
             <Row>
                 <Card>
                     <Card.Img

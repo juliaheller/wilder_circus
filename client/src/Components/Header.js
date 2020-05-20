@@ -1,12 +1,5 @@
 import React from 'react';
-import {
-    Container,
-    Row,
-    Col,
-    Navbar,
-    NavDropdown,
-    Button,
-} from 'react-bootstrap';
+import { Navbar, NavDropdown, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 export default function Header() {
@@ -17,7 +10,6 @@ export default function Header() {
             className='bg-light justify-content-between'
             variant='light'
             style={{
-                backgroundColor: 'rgba(180, 182, 187, 0.27) !important',
                 boxShadow: '0px 9px 79px -21px rgba(0,0,0,0.78)',
             }}>
             <div>

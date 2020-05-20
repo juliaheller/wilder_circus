@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 export default function Performances() {
     return (
         <Container>
+            <h1>Performances</h1>
             <CardGroup>
                 <Card>
                     <Card.Img

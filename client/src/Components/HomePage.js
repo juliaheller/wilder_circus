@@ -1,9 +1,13 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Col, Row, Toast } from 'react-bootstrap';
 
 // services
 import UserService from '../services/UserService';
+
+// styling
+
+import './styling.css';
 
 //components
 import Header from './Header';

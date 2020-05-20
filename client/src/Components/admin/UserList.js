@@ -29,6 +29,8 @@ export default function UserList({
             case 'email':
                 setUser(Object.assign({}, user, { email: e.target.value }));
                 break;
+            default:
+                break;
         }
         console.warn(user);
     };

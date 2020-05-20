@@ -10,10 +10,13 @@ These instructions will get you a copy of the project up and running on your loc
 
 -   Clone this repository
 -   run:
-    npm install in server and in client
+    npm install in the main folder and in client
 
--   Start the server:
-    `npm start`
+-   Start the server and the client:
+    `npm run dev`
 
--   start the client:
-    `npm start`
+-   Frontend:
+    `http://localhost:3000`
+
+-   Backend:
+    `http://localhost:5001`

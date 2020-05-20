@@ -23,6 +23,13 @@ h1 {
     text-align: center;
     margin-top: 50px;
 }
+h2 {
+    color: rgb(148, 37, 148);
+    font-size: 3rem;
+    margin-top: 100px;
+    text-align: center;
+    margin-top: 50px;
+}
 
 p {
     font-family: 'Ubuntu', sans-serif;
@@ -37,6 +44,10 @@ a {
     color: rgb(148, 37, 148);
 }
 
+.bg-light {
+    background-color: rgba(230, 235, 248, 0.171) !important;
+    margin-bottom: 30px;
+}
 .about {
     padding-top: 50px;
 }
